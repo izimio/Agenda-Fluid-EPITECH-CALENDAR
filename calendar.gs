@@ -4,8 +4,8 @@ function getToken() {
     method: "post",
     followRedirects: false,
     payload: {
-      login: "YOU_EMAIL_HERE",
-      password: "XXXX",
+      login: "YOUR_EMAIL_HERE",
+      password: "YOUR_PARENTAL_CONNEXION_CODE_HERE",
     },
   };
   
