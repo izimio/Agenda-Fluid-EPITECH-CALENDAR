@@ -1,3 +1,5 @@
+var SCHOOL_YEAR = 2024;
+
 function getToken() {
   var url = "https://intra.epitech.eu/";
   var options = {
@@ -165,7 +167,7 @@ function getModules() {
 function filterRegisteredModules() {
   var modules = getModules();
     const filteredModules = modules.filter(module => module.status === "ongoing"
-    && module.scolaryear >= 2022
+    && module.scolaryear >= SCHOOL_YEAR
     && module.title.indexOf("PCP") == -1
     && module.title.indexOf("Diversity") == -1
     && module.title.indexOf("Promoting") == -1
